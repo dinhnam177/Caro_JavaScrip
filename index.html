@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Game Caro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="scrip.js"></script>
+</head>
+
+<body>
+    <div id="divmain">
+        <table id="table">
+        </table>
+    </div>
+    <div id="divcontrol">
+        <div id="imgPlayer"></div>
+        <br />
+        <input type="text" id="name1" class="input_name" placeholder="Nhập tên người chơi 1" size="30">
+        <input type="text" id="name2" class="input_name" placeholder="Nhập tên người chơi 2" size="30">
+        <input type="text" id="size_caro" class="input_size" placeholder="Nhập kích cỡ bàn cờ (nxn)" size="30">
+        <input type="button" class="button_NewGame" value="NEW GAME" onClick="Loaded()" />
+        <input type="button" class="button_Undo" value="UNDO" onClick="Undo(2)" /><br />
+    </div>
+</body>
+
+</html>
